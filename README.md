@@ -44,7 +44,8 @@ OpenCV
 
 HTML5 + CSS3
 
-👨‍💻 Desarrollado por
+👨‍💻 Desarrollado por:
+
 Jesus Eduardo García Moreno
 
 Andrik Calderón Macías
