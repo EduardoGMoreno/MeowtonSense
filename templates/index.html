@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MeowtonSense</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616408.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fefaf6;
+            color: #333;
+            text-align: center;
+            padding: 30px;
+        }
+        h1 {
+            color: #ff6f61;
+            font-size: 3rem;
+            margin-bottom: 5px;
+        }
+        .header-img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        h2, h3 {
+            color: #4d4d4d;
+        }
+        form {
+            margin: 30px auto;
+            padding: 20px;
+            background: #fff0e6;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="file"] {
+            padding: 10px;
+            border: none;
+            background: #fff;
+            border-radius: 6px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #e65c50;
+        }
+        img.result {
+            max-width: 90%;
+            border-radius: 10px;
+            margin-top: 20px;
+            border: 4px solid #ff6f61;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 20px auto;
+            max-width: 500px;
+        }
+        li {
+            background: #fff0e6;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+        }
+        #live-stream {
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function toggleStream() {
+            const videoContainer = document.getElementById("live-stream");
+            const videoElement = document.getElementById("live-video");
+            const toggleBtn = document.getElementById("toggle-button");
+
+            if (videoContainer.style.display === "none") {
+                videoContainer.style.display = "block";
+                videoElement.src = "{{ url_for('video') }}";
+                toggleBtn.innerText = "Ocultar cámara en vivo";
+            } else {
+                videoContainer.style.display = "none";
+                videoElement.src = "";
+                toggleBtn.innerText = "Mostrar cámara en vivo";
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Pata" class="header-img">
+    <h1>MeowtonSense</h1>
+    <p>🐾 Vigila a tu peludo favorito desde cualquier lugar, Descubre Quién anda husmeando y mantén a tu mascota siempre a la vista con MeowtonSense.</p>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required><br>
+        <button type="submit">Detectar desde imagen</button>
+    </form>
+
+    {% if result_image %}
+        <h2>Resultado de imagen:</h2>
+        <img class="result" src="{{ url_for('static', filename=result_image) }}">
+        <h3>Objetos detectados:</h3>
+        <ul>
+        {% for d in detections %}
+            <li><strong>{{ d.name }}</strong> - {{ d.confidence }}%</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+    <hr style="margin: 40px 0;">
+
+    <h2>Detección en tiempo real 🐶</h2>
+    <p style="font-size: 1.2rem; margin-bottom: 10px;">
+        ¡Tenemos ojos en casa! Da clic para empezar a vigilar. 🕵️‍♂️🐾
+    </p>
+    <button id="toggle-button" onclick="toggleStream()">Mostrar cámara en vivo</button>
+    <div id="live-stream" style="display: none;">
+        <img id="live-video" src="" width="640">
+    </div>
+    <hr style="margin: 50px 0;">
+
+<section style="background-color: #fff0e6; padding: 30px; border-radius: 12px; max-width: 800px; margin: auto;">
+    <h2>Acerca de Nosotros</h2>
+    <p style="font-size: 1.1rem;">
+        MeowtonSense es un proyecto desarrollado como parte de una práctica de inteligencia artificial, con el objetivo de ofrecer una plataforma visual e interactiva para el monitoreo y detección de mascotas en tiempo real.
+    </p>
+    <h3>Desarrollado por:</h3>
+    <ul style="list-style: none; padding-left: 0; font-size: 1.1rem;">
+        <li>🐾 Jesus Eduardo García Moreno</li>
+        <li>🐾 Andrik Calderón Macías</li>
+        <li>🐾 Oscar David Rosales Gómez</li>
+    </ul>
+</section>
+</body>
+</html>

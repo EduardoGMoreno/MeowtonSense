@@ -1,0 +1,13 @@
+venv/
+.venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.DS_Store
+Thumbs.db
+uploads/
+static/cam_result_*.jpg
