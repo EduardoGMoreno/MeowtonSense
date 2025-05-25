@@ -54,3 +54,14 @@ Oscar David Rosales Gómez
 🐶 ¿Por qué MeowtonSense?
 Vigila a tu peludo favorito desde cualquier lugar.
 Descubre quién anda husmeando y mantén a tu mascota siempre a la vista con detección inteligente en tiempo real.
+---
+
+## ✨ Funciones futuras
+
+- 🌐 **Subir el proyecto a la web:** desplegar MeowtonSense en un servidor (como Render, Railway o un VPS) para que esté disponible desde cualquier navegador sin necesidad de instalar nada localmente.
+- 📱 **Interfaz móvil responsiva:** adaptar la interfaz para que funcione perfectamente en teléfonos y tabletas.
+- 💬 **Notificaciones inteligentes:** enviar alertas si se detecta movimiento o una mascota en áreas específicas.
+- 🧠 **Entrenamiento personalizado:** permitir al usuario subir sus propias imágenes para entrenar nuevas clases fácilmente.
+- 📊 **Historial de detecciones:** guardar las detecciones con fecha y hora para su revisión posterior.
+- 🔒 **Acceso con contraseña:** agregar autenticación para proteger la vista de la cámara en tiempo real.
+
