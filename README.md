@@ -6,7 +6,7 @@
 
 ---
 
-## 🖼️ Capturas de pantalla
+## Capturas de pantalla
 
 ### Interfaz principal
 ![UI](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSenseUI.png)
@@ -21,16 +21,23 @@
 1. **Clona el repositorio:**
 
 En el Bash
+
 git clone https://github.com/EduardoGMoreno/MeowtonSense.git
+
 cd MeowtonSense
+
 python -m venv venv
-venv\\Scripts\\activate       # En Windows
+
+venv\\Scripts\\activate  
+
 pip install -r requirements.txt
+
 Ejecuta la aplicación:
 
-En el Bash Ejecuta
 python app.py
+
 Y abre tu navegador en:
+
 http://localhost:5000
 
 🔧 Tecnologías utilizadas
