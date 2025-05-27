@@ -14,6 +14,9 @@
 ### Detección en tiempo real
 ![LiveCam](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/LiveCamMeowtonSense.png)
 
+🐶 ¿Por qué MeowtonSense?
+Vigila a tu peludo favorito desde cualquier lugar.
+Descubre quién anda husmeando y mantén a tu mascota siempre a la vista con detección inteligente en tiempo real.
 ## 🐶😺 Interpretación de lenguaje corporal y emociones
 
 Durante la prueba del sistema MeowtonSense, se analizaron diferentes expresiones de lenguaje corporal de perros y gatos para demostrar la capacidad del modelo en identificar no solo la presencia de mascotas, sino también su estado emocional.
@@ -92,9 +95,6 @@ Andrik Calderón Macías
 
 Oscar David Rosales Gómez
 
-🐶 ¿Por qué MeowtonSense?
-Vigila a tu peludo favorito desde cualquier lugar.
-Descubre quién anda husmeando y mantén a tu mascota siempre a la vista con detección inteligente en tiempo real.
 ---
 
 ## ✨ Funciones futuras
