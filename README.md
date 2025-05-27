@@ -73,3 +73,20 @@ Descubre quién anda husmeando y mantén a tu mascota siempre a la vista con det
 - 📊 **Historial de detecciones:** guardar las detecciones con fecha y hora para su revisión posterior.
 - 🔒 **Acceso con contraseña:** agregar autenticación para proteger la vista de la cámara en tiempo real.
 
+---
+
+## 📸 Resultados de detección
+
+A continuación se muestran ejemplos reales del funcionamiento de MeowtonSense detectando mascotas en imágenes:
+
+### Ejemplos:
+
+![Detección 1](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense1.png)
+![Detección 2](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense2.png)
+![Detección 3](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense3.png)
+![Detección 4](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense4.png)
+![Detección 5](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense5.png)
+![Detección 6](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense6.png)
+![Detección 7](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense7.png)
+![Detección 8](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense8.png)
+![Detección 9](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense9.png)
