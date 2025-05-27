@@ -14,6 +14,39 @@
 ### Detección en tiempo real
 ![LiveCam](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/LiveCamMeowtonSense.png)
 
+## 🐶😺 Interpretación de lenguaje corporal y emociones
+
+Durante la prueba del sistema MeowtonSense, se analizaron diferentes expresiones de lenguaje corporal de perros y gatos para demostrar la capacidad del modelo en identificar no solo la presencia de mascotas, sino también su estado emocional.
+
+### Emociones y comportamientos detectados:
+
+- **🐕 Perro enojado:** orejas hacia atrás, cuerpo tenso, posible muestra de dientes.
+- **🐕 Perro cómodo:** acostado o recostado, mirada tranquila, respiración lenta.
+- **🐕 Perro feliz:** cola moviéndose, postura relajada, orejas erguidas, hocico abierto.
+- **🐕 Perro en alerta:** cuerpo erguido, cola firme, mirada enfocada en un punto.
+
+- **🐈 Gato enojado:** cuerpo arqueado, orejas hacia atrás, mirada fija, cola agitada.
+- **🐈 Gato jugando:** posturas agachadas con saltos, patas delanteras activas, cola suelta.
+- **🐈 Gato asustado:** orejas planas, cuerpo encogido, pupilas dilatadas, cola erizada.
+
+Estas posturas fueron capturadas en las imágenes que se muestran a continuación para ilustrar el alcance del modelo entrenado.
+
+---
+
+## 📸 Resultados de detección
+
+A continuación se muestran ejemplos reales del funcionamiento de MeowtonSense detectando emociones en mascotas:
+
+![Perro enojado](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense1.png)
+![Perro cómodo](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense2.png)
+![Perro feliz](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense3.png)
+![Perro en alerta](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense4.png)
+![Gato enojado](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense5.png)
+![Gato jugando](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense6.png)
+![Gato asustado](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense7.png)
+![Ejemplo adicional 1](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense8.png)
+![Ejemplo adicional 2](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense9.png)
+
 ---
 
 ## 🚀 ¿Cómo ejecutar?
@@ -72,21 +105,4 @@ Descubre quién anda husmeando y mantén a tu mascota siempre a la vista con det
 - 🧠 **Entrenamiento personalizado:** permitir al usuario subir sus propias imágenes para entrenar nuevas clases fácilmente.
 - 📊 **Historial de detecciones:** guardar las detecciones con fecha y hora para su revisión posterior.
 - 🔒 **Acceso con contraseña:** agregar autenticación para proteger la vista de la cámara en tiempo real.
-
 ---
-
-## 📸 Resultados de detección
-
-A continuación se muestran ejemplos reales del funcionamiento de MeowtonSense detectando mascotas en imágenes:
-
-### Ejemplos:
-
-![Detección 1](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense1.png)
-![Detección 2](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense2.png)
-![Detección 3](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense3.png)
-![Detección 4](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense4.png)
-![Detección 5](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense5.png)
-![Detección 6](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense6.png)
-![Detección 7](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense7.png)
-![Detección 8](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense8.png)
-![Detección 9](https://raw.githubusercontent.com/EduardoGMoreno/MeowtonSense/main/MeowtonSense9.png)
